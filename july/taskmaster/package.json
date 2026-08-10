@@ -1,0 +1,24 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "A Todo CLI app built with Node.js and TypeScript",
+  "main": "dist/index.js",
+  "bin": {
+    "todo": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "commander": "11.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  }
+}
